@@ -22,7 +22,7 @@ end
 def kesha_maker(array)
   kesha = []
   array.each do |x|
-    kesha << x.sub(/2-3/, "$")
+    kesha << x.sub(/2/, "$")
   end
   kesha
 end
