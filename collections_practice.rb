@@ -38,7 +38,7 @@ def add_s(array)
     if i != 1
       x + "s"
     else
-      return
+      return x
     end
   end
 end
